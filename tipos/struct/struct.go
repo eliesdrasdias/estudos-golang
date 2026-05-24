@@ -8,7 +8,7 @@ type produto struct {
 	desconto float64
 }
 
-// Método: funçaõ com receiver (receptor)
+// Método: função com receiver (receptor)
 func (p produto) precoComDesconto() float64 {
 	return p.preco * (1 - p.desconto)
 }
